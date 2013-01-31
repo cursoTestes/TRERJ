@@ -30,7 +30,7 @@ public class TestCalculadora {
 	@Test
 	public void calculoDaComissaoVenda300Comissao15() {
 		double valorVenda = 300;
-		double esperado = 15;
+		double esperado = 16;
 
 		double retorno = Calculadora.calculaComissao(valorVenda);
 		
