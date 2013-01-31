@@ -1,8 +1,8 @@
 package br.tre;
 
-public class Calculadora {
+public class CalculadoraComissao {
 
-	public static double calculaComissao(double valorVenda) {
+	public double calculaComissao(double valorVenda) {
 		double valorComissao ;
 		
 		if (valorVenda < 0)

@@ -2,17 +2,26 @@ package br.tre;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Before;
 import org.junit.Test;
 
-public class TestCalculadora {
-	
+public class TestCalculadoraComissao {
 
+	private CalculadoraComissao calc;
+
+	@Before 
+	public void metodoRodaAntesDoTeste(){
+		calc = new CalculadoraComissao();
+
+	}
+	
 	@Test
 	public void calculoDaComissaoVenda10000Comissao500() {
 		double valorVenda = 10000;
 		double esperado = 500;
-
-		double retorno = Calculadora.calculaComissao(valorVenda);
+		
+		
+		double retorno = calc.calculaComissao(valorVenda);
 		
 		assertEquals(esperado, retorno, 0.0001);
 	}
@@ -22,7 +31,7 @@ public class TestCalculadora {
 		double valorVenda = 200;
 		double esperado = 10;
 
-		double retorno = Calculadora.calculaComissao(valorVenda);
+		double retorno = calc.calculaComissao(valorVenda);
 		
 		assertEquals(esperado, retorno, 0.0001);
 	}
@@ -32,7 +41,7 @@ public class TestCalculadora {
 		double valorVenda = 300;
 		double esperado = 15;
 
-		double retorno = Calculadora.calculaComissao(valorVenda);
+		double retorno = calc.calculaComissao(valorVenda);
 		
 		assertEquals(esperado, retorno, 0.0001);
 	}
@@ -42,7 +51,7 @@ public class TestCalculadora {
 		double valorVenda = 100000;
 		double esperado = 6000;
 
-		double retorno = Calculadora.calculaComissao(valorVenda);
+		double retorno = calc.calculaComissao(valorVenda);
 		
 		assertEquals(esperado, retorno, 0.0001);
 	}
@@ -51,7 +60,7 @@ public class TestCalculadora {
 		double valorVenda = 55.79;
 		double esperado = 2.78;
 
-		double retorno = Calculadora.calculaComissao(valorVenda);
+		double retorno = calc.calculaComissao(valorVenda);
 		
 		assertEquals(esperado, retorno, 0.0001);
 	}
@@ -61,7 +70,7 @@ public class TestCalculadora {
 	public void calculoDaComissaoVendaNegativo() {
 		double valorVenda = -1000;
 		
-		Calculadora.calculaComissao(valorVenda);
+		calc.calculaComissao(valorVenda);
 				
 	}
 }
