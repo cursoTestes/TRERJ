@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="cfc-windows" name="br.tre.TestCalculadora" tests="1" time="0.088" timestamp="2013-01-30T23:42:18">
+  <properties>
+    <property name="ant.project.invoked-targets" value="all" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
+    <property name="java.vm.version" value="19.0-b09" />
+    <property name="ant.library.dir" value="C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.country" value="BR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="C:\TRE\github\SistemaVendas" />
+    <property name="java.runtime.version" value="1.6.0_23-b05" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/" />
+    <property name="basedir" value="C:\TRE\github\SistemaVendas" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\endorsed" />
+    <property name="os.arch" value="x86" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="java.io.tmpdir" value="C:\Users\cfc\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.file.SistemaVendasBuild" value="C:\TRE\github\SistemaVendas\build.xml" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="DSTAMP" value="20130130" />
+    <property name="ant.home" value="C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730" />
+    <property name="eclipse.pdebuild.templates" value="/C:/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/" />
+    <property name="ant.project.name" value="SistemaVendasBuild" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="TODAY" value="January 30 2013" />
+    <property name="ant.file.type.SistemaVendasBuild" value="file" />
+    <property name="eclipse.pdebuild.home" value="/C:/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\Dell\DW WLAN Card;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files\Roxio\OEM\AudioCore\;C:\Program Files\Windows Live\Shared;C:\Program Files\TortoiseSVN\bin;c:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\OpenSSH\bin;C:\Program Files\QuickTime\QTSystem\;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\;C:\Program Files\TortoiseGit\bin;C:\ant\apache-ant-1.8.3\bin;C:\apache-maven-3.0.4\bin;C:\Program Files\Gallio\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="os.version" value="6.1" />
+    <property name="ant.file" value="C:\TRE\github\SistemaVendas\build.xml" />
+    <property name="user.home" value="C:\Users\cfc" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="TSTAMP" value="2142" />
+    <property name="user.name" value="cfc" />
+    <property name="java.class.path" value="C:\TRE\github\SistemaVendas\lib\junit-4.9.jar;C:\TRE\github\SistemaVendas\lib\mockito-all-1.9.0.jar;C:\TRE\github\SistemaVendas\classes;C:\TRE\github\SistemaVendas;C:\Program Files\Java\jre6\lib\ext\QTJava.zip;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant-launcher.jar;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant.jar;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant-junit.jar;C:\eclipse-jee-juno-SR1-win32\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant-junit4.jar" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.language" value="pt" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.version" value="1.6.0_23" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_23\jre\classes" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+  </properties>
+  <testcase classname="br.tre.TestCalculadora" name="test_Nome_Teste" time="0.0010" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
