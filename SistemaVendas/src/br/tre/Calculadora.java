@@ -2,20 +2,18 @@ package br.tre;
 
 public class Calculadora {
 
-	public double calcular(double entrada) {
+	public static double calculaComissao(double valorVenda) {
+		double valorComissao ;
 		
-		double faixaComissao = 10000;
-		double comissao = 0.0;
+		if (valorVenda < 0)
+			throw new RuntimeException("Valor Negativo !!!");
 		
-		if(entrada > faixaComissao)
-		{
-			comissao = entrada * 0.06;
-		}else{
-			comissao = entrada * 0.05; 
-		}
+		if (valorVenda <= 10000)
+			valorComissao = valorVenda * 0.05;
+		else
+			valorComissao = valorVenda * 0.06;
 		
-		return Math.floor(comissao * 100)/100.0;
+		return Math.floor( valorComissao * 100 ) / 100;
 	}
-
 
 }
